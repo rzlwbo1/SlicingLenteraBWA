@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 60px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.navigasi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.navs {
+    flex: 0 1 50%;
+}
+
+.navs ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+
+.navs li a {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color: #999999;
+    text-decoration: none;
+}
+
+.navs li a:hover {
+    color: #000;
+}
+
+.navs li a.active {
+    color: #000;
+    font-weight: 600;
+}
+
+
+/* Content */
+
+main {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.main-content {
+    display: flex;
+}
+
+.content {
+    flex: 0 1 45%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.content h1 {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.content .sub-title {
+    margin-top: 16px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #999;
+}
+
+.statistik {
+    display: flex;
+    margin-top: 40px;
+}
+
+.statistik-item {
+    padding: 10px 0;
+    padding-right: 40px;
+}
+
+.statistik-item p span {
+    color: #8080FF;
+}
+
+.statistik-item p:first-child {
+    color: #000;
+    font-size: 32px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.statistik-item p:last-child {
+    color: #999;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+.content .location {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #999;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+.location div {
+    margin-top: 6px;
+    display: block;
+    width: 80%;
+    padding: 11px 0 11px 14px;
+    background-color: #F7F7F9;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+
+.btn-explore {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #FF9376;
+    color: #fff;
+    text-decoration: none;
+    padding: 11px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    -webkit-box-shadow: 0px 12px 36px 0px rgba(255,147,118,0.36);
+    -moz-box-shadow: 0px 12px 36px 0px rgba(255,147,118,0.36);
+    box-shadow: 0px 12px 36px 0px rgba(255,147,118,0.36);
+    transition: transform 500ms;
+}
+
+.btn-explore:hover {
+    transform: translateY(5px);
+    transition: 500ms;
+}
+
+
+/* banner */
+
+.banner {
+    position: absolute;
+    max-width: 55%;
+    top: 0;
+    right: -50px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.banner-image img {
+    display: block;
+    max-width: 100%;
+}
+
+
